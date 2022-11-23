@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!----- Course ----->
+    <section class="course">
+        <h1>Technical Courses We Offer</h1>
+        <p>Explore the intersection of technology and society. By providing technical skills training for your employees, you're instilling self-confidence that they have the knowledge and competence to perform their daily tasks to the best of their ability.</p>
+        <div class="row">
+            <div class="course-column">
+                <h3>Software Engineering</h3>
+                <p>Software engineering is a modern course focused on the development of algorithmic and software. Students acquire mathematical knowledge, study modern programming languages, software testing, operating systems, databases and other disciplines.</p>
+            </div>
+            <div class="course-column">
+                <h3>System Analysis</h3>
+                <p>System analysis is a scientific method of cognition, which is a sequence of actions to establish structural relationships between variables or elements of the studied system. It is based on a complex of general scientific, statistical, mathematical methods.</p>
+            </div>
+            <div class="course-column">
+                <h3>Information Systems</h3>
+                <p>The main goal of the Information Systems course is the development and administration of complex IT infrastructure solutions using Data Science and AI technologies. Much time is devoted to studying the architecture of cloud information systems using ML and AI technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- Facilities ----->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The National Technical University of Ukraine "Kyiv Polytechnic Institute" today is the largest educational and scientific center of Ukraine,<br>which combines educational, scientific and innovative potentials.</p>
+        <div class="row">
+            <div class="facilities-column">
+                <img src="img/library.jpg" alt="library">
+                <h3>World Class Library</h3>
+                <p>The library, together with the KPI community and for the KPI community, develops a creative, comfortable and safe environment that promotes research, learning and teaching, and self-development, with the goal of building a world-class research university</p>
+            </div>
+            <div class="facilities-column">
+                <img src="img/pool.jpg" alt="pool">
+                <h3>Big Sports Complex</h3>
+                <p>The KPI sports complex is a place where students spend their free time. One of the advantages of the sports complex is the diversity of the selection of sections, which is quite liked and attracts students. Everyone chooses the sport that they like the most.</p>
+            </div>
+            <div class="facilities-column">
+                <img src="img/cafeteria.jpg" alt="cafeteria">
+                <h3>Tasty and Healthy Food</h3>
+                <p>The cafeteria performs functions related to the nutrition of students and employees of the university. Confectionery and culinary products, drinks, juices, dairy and other products are baked in the catering center.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- Footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a leading research university with a heart. Founded in the end of the 19th century,<br>we are the nation's best technical university.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Victoria Ilchenko</p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
