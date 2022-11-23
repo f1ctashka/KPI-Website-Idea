@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="blog.html">BLOG</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Programs For 2021</h1>
+    </section>
+
+    <!----- Blog Page Content ----->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="students-master">
+                <h2>Our Certificates & Programs For 2021</h2>
+                <p>Kyiv Polytechnic Institute (since 2016 - National Technical University of Ukraine "Ihor Sikorsky Kyiv Polytechnic Institute") was founded in 1898. Over the years of its existence, it has trained almost 380,000 specialists, more than 70,000 of them during the years of Ukraine's independence</p>
+                <br><p>KPI is among the 4% of the best universities in the world according to the QS and Webometrics international rankings. Every year it holds the highest positions in the rankings of higher educational institutions of Ukraine "Kompas" and "TOP-200 Ukraine". It has the he most popular higher education institution of Ukraine on the Internet in recent years, according to the Google Corporation.</p>
+                <br><p><strong>Vision of KPI:</strong>
+                <br><em>To help create the society of the future based on the concept of sustainable development. To be a world-class research-type technical university. To create all the conditions for the training of highly qualified (perfect) specialists capable of creating modern scientific knowledge and innovative technologies for the benefit of humanity and ensuring a worthy place for Ukraine in the world community.</em></p>
+                <br><p>Kyiv Polytechnic Institute is one of the largest educational institutions in Europe. Almost 25,000 students, postgraduates and doctoral students study there, including foreign students from countries near and far abroad. Every sixth student in Kyiv receives an education at KPI, every twenty-fifth professor and associate professor of Ukraine is a KPI teacher, every fifth faculty and department of technical universities of the country is a faculty or department of KPI.</p>
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+                    <form class="comment-form" accept-charset="UTF-8" action="https://getform.io/f/{your endpoint}" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
+                        <input type="text" name="name" required placeholder="Enter Your Name*">
+                        <input type="email" name="email" required placeholder="Enter E-Mail*">
+                        <textarea rows="5" name="message" required placeholder="Your Comment*"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>The Most Popular Specialities</h3>
+                <div>
+                    <span>Physics and astronomy</span>
+                    <span>104</span>
+                </div>
+                <div>
+                    <span>Applied Mathematics</span>
+                    <span>113</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>122</span>
+                </div>
+                <div>
+                    <span>Industrial engineering</span>
+                    <span>133</span>
+                </div>
+                <div>
+                    <span>Aviation and rocket-space technologies</span>
+                    <span>134</span>
+                </div>
+                <div>
+                    <span>Atomic energy</span>
+                    <span>143</span>
+                </div>
+                <div>
+                    <span>Biomedical engineering</span>
+                    <span>163</span>
+                </div>
+                <div>
+                    <span>Electronics</span>
+                    <span>171</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----- Footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a leading research university with a heart. Founded in the end of the 19th century,<br>we are the nation's best technical university.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Victoria Ilchenko</p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
