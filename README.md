@@ -21,6 +21,6 @@ This is a website that shows information about the NTUU "Igor Sikorsky Kyiv Poly
 ## What to do to receive form answers:
 - Sign in [GETFORM.IO](https://getform.io/);
 - Open blog.html and contact.html files;
-- Find << form >> tag and add your key (endpoint).
+- Find < form > tag and add your key (endpoint).
 
 ------------------------------------
